@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SixPanas Gaming - Catálogo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="logo-container">
+    <a href="index.html">
+      <img src="img/logo.png" alt="SixPanas Gaming Logo" class="logo">
+    </a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="catalogo.html">Catálogo</a></li>
+      <li><a href="nosotros.html">Nosotros</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+    <div class="search-box">
+      <input type="text" placeholder="Buscar productos...">
+      <button>Buscar</button>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <h1 class="catalog-title">Nuestro Catálogo Gaming</h1>
+
+  <div class="products-container" id="products-container">
+    <!-- Los productos se generarán dinámicamente con JavaScript -->
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2023 SixPanas Gaming. Todos los derechos reservados.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SixPanas Gaming - Inicio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="logo-container">
+    <a href="index.html">
+      <img src="img/logo.png" alt="SixPanas Gaming Logo" class="logo">
+    </a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="catalogo.html">Catálogo</a></li>
+      <li><a href="nosotros.html">Nosotros</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <h1>Bienvenido a SixPanas Gaming</h1>
+    <p>Tu destino definitivo para equipos de cómputo gaming de alto rendimiento</p>
+    <a href="catalogo.html" class="cta-button">Explora nuestro catálogo</a>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <h2>Equipos de Última Generación</h2>
+      <p>Laptops con lo último en tecnología para que domines cualquier juego.</p>
+    </div>
+    <div class="feature">
+      <h2>Componentes de Alto Rendimiento</h2>
+      <p>Procesadores, tarjetas gráficas y memorias para experiencias épicas.</p>
+    </div>
+    <div class="feature">
+      <h2>Asesoría Especializada</h2>
+      <p>Nuestro equipo de expertos gamers te ayudará a elegir el equipo perfecto.</p>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <h2>Lo que dicen nuestros clientes</h2>
+    <div class="testimonial">
+      <p>"Con mi nueva laptop de SixPanas finalmente puedo jugar en ultra a más de 144 FPS. ¡Increíble!"</p>
+      <p>- Carlos "NoScopeKing" M.</p>
+    </div>
+    <div class="testimonial">
+      <p>"El servicio postventa es excelente. Me ayudaron a optimizar mi equipo para streaming."</p>
+      <p>- Laura "StreamQueen" R.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2023 SixPanas Gaming. Todos los derechos reservados.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SixPanas Gaming - Inicio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="logo-container">
+    <a href="index.html">
+      <img src="img/logo.png" alt="SixPanas Gaming Logo" class="logo">
+    </a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="catalogo.html">Catálogo</a></li>
+      <li><a href="nosotros.html">Nosotros</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <h1>Bienvenido a SixPanas Gaming</h1>
+    <p>Tu destino definitivo para equipos de cómputo gaming de alto rendimiento</p>
+    <a href="catalogo.html" class="cta-button">Explora nuestro catálogo</a>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <h2>Equipos de Última Generación</h2>
+      <p>Laptops con lo último en tecnología para que domines cualquier juego.</p>
+    </div>
+    <div class="feature">
+      <h2>Componentes de Alto Rendimiento</h2>
+      <p>Procesadores, tarjetas gráficas y memorias para experiencias épicas.</p>
+    </div>
+    <div class="feature">
+      <h2>Asesoría Especializada</h2>
+      <p>Nuestro equipo de expertos gamers te ayudará a elegir el equipo perfecto.</p>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <h2>Lo que dicen nuestros clientes</h2>
+    <div class="testimonial">
+      <p>"Con mi nueva laptop de SixPanas finalmente puedo jugar en ultra a más de 144 FPS. ¡Increíble!"</p>
+      <p>- Carlos "NoScopeKing" M.</p>
+    </div>
+    <div class="testimonial">
+      <p>"El servicio postventa es excelente. Me ayudaron a optimizar mi equipo para streaming."</p>
+      <p>- Laura "StreamQueen" R.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2023 SixPanas Gaming. Todos los derechos reservados.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SixPanas Gaming - Nosotros</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="logo-container">
+    <a href="index.html">
+      <img src="img/logo.png" alt="SixPanas Gaming Logo" class="logo">
+    </a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="catalogo.html">Catálogo</a></li>
+      <li><a href="nosotros.html">Nosotros</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="about-us">
+    <h1>Conoce al equipo SixPanas</h1>
+    <p class="team-description">Somos seis compañeros de la universidad ULACEX unidos por nuestra pasión por el gaming y la tecnología. Lo que comenzó como un proyecto de clase se convirtió en nuestro sueño hecho realidad.</p>
+
+    <div class="team-members">
+      <div class="member">
+        <h2>Adan "TheDestroyer"</h2>
+        <p>Especialista en hardware y overclocking. Adan comenzó su carrera gamer destruyendo a sus oponentes en FPS, de ahí su apodo. Antes de SixPanas, batió el récord de overclocking en su universidad con un presupuesto limitado.</p>
+      </div>
+
+      <div class="member">
+        <h2>Andres "PixelWizard"</h2>
+        <p>Nuestro gurú de gráficos y diseño. Andres puede distinguir entre 144Hz y 240Hz con los ojos cerrados. Su historia gamer comenzó cuando su abuelo le regaló una PC para "hacer la tarea" que terminó convirtiéndose en una máquina de gaming.</p>
+      </div>
+
+      <div class="member">
+        <h2>Javier "LagHunter"</h2>
+        <p>Experto en redes y optimización. Javier se hizo conocido en la escena competitiva por su habilidad para jugar incluso con ping alto, cazando el lag antes de que lo afecte. Ahora se asegura de que nuestros clientes nunca experimenten latencia.</p>
+      </div>
+
+      <div class="member">
+        <h2>Jesus "TheArchitect"</h2>
+        <p>Maestro de configuraciones personalizadas. Jesus construyó su primera PC a los 12 años con partes de computadoras viejas. Su apodo viene de su habilidad para diseñar builds perfectamente balanceadas para cualquier presupuesto.</p>
+      </div>
+
+      <div class="member">
+        <h2>John "FrameMaster"</h2>
+        <p>El rey de los FPS estables. John puede detectar caídas de frames que nadie más nota. Su obsesión por la fluidez perfecta lo llevó a especializarse en optimización de sistemas para gaming competitivo.</p>
+      </div>
+
+      <div class="member">
+        <h2>Luis "TheModder"</h2>
+        <p>Artista del modding y personalización. Luis comenzó modificando consolas a los 14 años y ahora crea las builds más estéticas que hayas visto. Si quieres que tu PC sea tan impresionante por fuera como por dentro, él es tu hombre.</p>
+      </div>
+    </div>
+
+    <div class="our-story">
+      <h2>Nuestra Historia</h2>
+      <p>Todo comenzó en una clase de programación en ULACEX, donde descubrimos que compartíamos más que el interés por el código: una pasión por el gaming. Lo que empezó como discusiones sobre builds ideales y configuraciones óptimas se convirtió en un negocio cuando nos dimos cuenta de que podíamos ayudar a otros gamers a conseguir el equipo perfecto.</p>
+      <p>El nombre "SixPanas" viene de nuestra amistad (somos seis panas) y de nuestra meta: ofrecer equipos que mantengan seis paneles (FPS, temperatura, consumo, ruido, latencia y calidad) en niveles óptimos.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2023 SixPanas Gaming. Todos los derechos reservados.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+// Función para generar precios aleatorios
+function generarPrecio() {
+    return Math.floor(Math.random() * (3000 - 1200 + 1)) + 1200;
+}
+
+// Datos de los productos
+const productos = [
+    {
+        producto: "Laptop",
+        marca: "HP",
+        memoria: "32GB",
+        disco: "2TB",
+        procesador: "Intel i9",
+        sistema: "Windows 11",
+        imagen: "img/hp.jpg"
+    },
+    {
+        producto: "Laptop",
+        marca: "Lenovo",
+        memoria: "16GB",
+        disco: "1TB",
+        procesador: "Intel i7",
+        sistema: "Windows 11",
+        imagen: "img/lenovo.jpg"
+    },
+    {
+        producto: "Laptop",
+        marca: "Dell",
+        memoria: "32GB",
+        disco: "2TB",
+        procesador: "Intel i9",
+        sistema: "Windows 11",
+        imagen: "img/dell.jpg"
+    },
+    {
+        producto: "Laptop",
+        marca: "Asus",
+        memoria: "16GB",
+        disco: "1TB",
+        procesador: "Intel i7",
+        sistema: "Windows 11",
+        imagen: "img/asus.jpg"
+    },
+    {
+        producto: "Laptop",
+        marca: "AOC",
+        memoria: "32GB",
+        disco: "2TB",
+        procesador: "Intel i9",
+        sistema: "Windows 11",
+        imagen: "img/aoc.jpg"
+    },
+    {
+        producto: "Laptop",
+        marca: "Acer",
+        memoria: "32GB",
+        disco: "2TB",
+        procesador: "Intel i9",
+        sistema: "Windows 11",
+        imagen: "img/acer.jpg"
+    }
+];
+
+// Función para renderizar los productos en el catálogo
+function renderizarProductos() {
+    const container = document.getElementById('products-container');
+
+    if (container) {
+        productos.forEach(producto => {
+            const precio = generarPrecio();
+            const productCard = document.createElement('div');
+            productCard.className = 'product-card';
+
+            productCard.innerHTML = `
+                <img src="${producto.imagen}" alt="${producto.marca}" class="product-image">
+                <div class="product-info">
+                    <h2>${producto.marca}</h2>
+                    <h3>${producto.producto} Gaming</h3>
+                    <p><strong>Memoria:</strong> ${producto.memoria}</p>
+                    <p><strong>Disco Duro:</strong> ${producto.disco}</p>
+                    <p><strong>Procesador:</strong> ${producto.procesador}</p>
+                    <p><strong>Sistema Operativo:</strong> ${producto.sistema}</p>
+                    <p class="product-price">$${precio}.00</p>
+                    <button class="add-to-cart">Añadir al carrito</button>
+                </div>
+            `;
+
+            container.appendChild(productCard);
+        });
+    }
+}
+
+// Función para manejar el formulario de contacto
+function manejarFormularioContacto() {
+    const form = document.getElementById('contactForm');
+
+    if (form) {
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            // Aquí iría la lógica para enviar el formulario
+            alert('Gracias por tu mensaje. Nos pondremos en contacto contigo pronto.');
+            form.reset();
+        });
+    }
+}
+
+// Función para inicializar la búsqueda
+function inicializarBusqueda() {
+    // Solo inicializar si estamos en la página de catálogo
+    if (window.location.pathname.includes('catalogo.html')) {
+        const searchBox = document.querySelector('.search-box');
+
+        if (searchBox) {
+            const input = searchBox.querySelector('input');
+            const button = searchBox.querySelector('button');
+
+            button.addEventListener('click', function() {
+                buscarProductos(input.value);
+            });
+
+            input.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    buscarProductos(input.value);
+                }
+            });
+        }
+    }
+}
+
+// Función para buscar productos por marca
+function buscarProductos(termino) {
+    const container = document.getElementById('products-container');
+
+    if (!container) return; // Si no estamos en la página de catálogo, salir
+
+    // Limpiar el contenedor de productos
+    container.innerHTML = '';
+
+    if (termino.trim() === '') {
+        // Si el término de búsqueda está vacío, mostrar todos los productos
+        renderizarProductos();
+        return;
+    }
+
+    // Filtrar productos que coincidan con la marca (case insensitive)
+    const terminoBusqueda = termino.toLowerCase();
+    const productosFiltrados = productos.filter(producto =>
+        producto.marca.toLowerCase().includes(terminoBusqueda)
+    );
+
+    if (productosFiltrados.length === 0) {
+        // Mostrar mensaje si no hay resultados
+        container.innerHTML = `
+            <div class="no-results">
+                <p>No se encontraron productos de la marca "${termino}"</p>
+                <button id="show-all" class="cta-button">Mostrar todos los productos</button>
+            </div>
+        `;
+
+        // Agregar evento al botón para mostrar todos los productos
+        document.getElementById('show-all')?.addEventListener('click', () => {
+            renderizarProductos();
+            document.querySelector('.search-box input').value = '';
+        });
+    } else {
+        // Mostrar los productos filtrados
+        productosFiltrados.forEach(producto => {
+            const precio = generarPrecio();
+            const productCard = document.createElement('div');
+            productCard.className = 'product-card';
+
+            productCard.innerHTML = `
+                <img src="${producto.imagen}" alt="${producto.marca}" class="product-image">
+                <div class="product-info">
+                    <h2>${producto.marca}</h2>
+                    <h3>${producto.producto} Gaming</h3>
+                    <p><strong>Memoria:</strong> ${producto.memoria}</p>
+                    <p><strong>Disco Duro:</strong> ${producto.disco}</p>
+                    <p><strong>Procesador:</strong> ${producto.procesador}</p>
+                    <p><strong>Sistema Operativo:</strong> ${producto.sistema}</p>
+                    <p class="product-price">$${precio}.00</p>
+                    <button class="add-to-cart">Añadir al carrito</button>
+                </div>
+            `;
+
+            container.appendChild(productCard);
+        });
+    }
+}
+
+// Evento cuando el DOM está completamente cargado
+document.addEventListener('DOMContentLoaded', function() {
+    renderizarProductos();
+    manejarFormularioContacto();
+    inicializarBusqueda();
+});
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f5f9ff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header y navegación */
+header {
+    background: linear-gradient(135deg, #1a2a6c, #3a7bd5);
+    color: white;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
+    transition: transform 0.3s;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 1.5rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.search-box {
+    display: flex;
+    margin-left: 2rem;
+}
+
+.search-box input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    width: 250px;
+}
+
+.search-box button {
+    padding: 0.5rem 1rem;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-box button:hover {
+    background-color: #ff5252;
+}
+
+/* Main content */
+main {
+    padding: 2rem;
+    min-height: calc(100vh - 150px);
+}
+
+/* Estilos para la página de inicio */
+.hero {
+    background: linear-gradient(rgba(26, 42, 108, 0.8), rgba(58, 123, 213, 0.8)), url('img/gaming-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff6b6b;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #ff5252;
+    transform: translateY(-2px);
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.feature {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+}
+
+.feature h2 {
+    color: #1a2a6c;
+    margin-bottom: 1rem;
+}
+
+.testimonials {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #1a2a6c;
+}
+
+.testimonial {
+    background-color: #f5f9ff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    border-left: 4px solid #3a7bd5;
+}
+
+.testimonial p:first-child {
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+.testimonial p:last-child {
+    font-weight: bold;
+    color: #3a7bd5;
+}
+
+/* Estilos para el catálogo */
+.catalog-title {
+    text-align: center;
+    color: #1a2a6c;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-info {
+    padding: 1.5rem;
+}
+
+.product-info h2 {
+    color: #1a2a6c;
+    margin-bottom: 0.5rem;
+}
+
+.product-info h3 {
+    color: #3a7bd5;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.product-info p {
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.product-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff6b6b;
+    margin: 1rem 0;
+}
+
+.add-to-cart {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #3a7bd5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #1a2a6c;
+}
+
+/* Estilos para la página Nosotros */
+.about-us {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.team-description {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.team-members {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.member {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.member h2 {
+    color: #1a2a6c;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.member h2::before {
+    content: "🎮 ";
+}
+
+.member p {
+    color: #555;
+}
+
+.our-story {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.our-story h2 {
+    color: #1a2a6c;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.our-story p {
+    margin-bottom: 1rem;
+    color: #555;
+    line-height: 1.7;
+}
+
+/* Estilos para la página de contacto */
+.contact-info {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.contact-details {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-details h2 {
+    color: #1a2a6c;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.contact-details p {
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.contact-details p strong {
+    color: #333;
+}
+
+.contact-form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    color: #1a2a6c;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.submit-btn {
+    background-color: #3a7bd5;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #1a2a6c;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(135deg, #1a2a6c, #3a7bd5);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        margin-top: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .search-box {
+        margin: 1rem 0 0 0;
+        width: 100%;
+    }
+
+    .search-box input {
+        width: 100%;
+    }
+
+    .contact-info {
+        grid-template-columns: 1fr;
+    }
+
+    .features {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 1rem;
+    }
+
+    .logo {
+        height: 50px;
+    }
+
+    nav ul li {
+        margin: 0.5rem;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}
+
+/* Estilos para los resultados de búsqueda */
+.no-results {
+    text-align: center;
+    grid-column: 1 / -1;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.no-results p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+#show-all {
+    background-color: #3a7bd5;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#show-all:hover {
+    background-color: #1a2a6c;
+}
